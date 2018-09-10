@@ -9,7 +9,7 @@
 
 			<input type="hidden" name="_token" value="{{ csrf_token() }}" readonly>
 			<input type="text" name="surah" placeholder="surah Ke" id="surah" required>
-			<input type="text" placeholder="jumlah ayat" id="jumlah_sum" required>
+			<input type="text" placeholder="Input Sampai Ayat Ke" id="jumlah_sum" required>
 
 			<button type="button" id="proses"> Buka Form Inputan Per Ayat </button>
 

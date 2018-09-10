@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    $data = DB::table('arabic')->where('surah', 1)->where('ayat', 1)->first();
+    $data = DB::table('arabic')->where('surah', 78)->where('ayat', 40)->first();
     return view('welcome', compact('data'));
 });
 

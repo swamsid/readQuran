@@ -15,7 +15,7 @@
 
             @font-face {
               font-family: 'Uthmani';
-              src : url('{{ asset('fonts/quranFont.otf')  }}') format('truetype');
+              src : url('{{ asset('fonts/indopak_1.ttf')  }}') format('truetype');
             }
 
             html, body {
@@ -52,8 +52,9 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 70px;
                 font-family: 'Uthmani', serif;
+                color: #00695c;
             }
 
             .links > a {
